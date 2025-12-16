@@ -1,6 +1,12 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 I am an iOS Developer specializing in Swift and SwiftUI.
 
-Skills:
+### Skills
 - Swift
 - SwiftUI
 - MVVM
