@@ -1,16 +1,91 @@
 ---
-title: Sample Post
-date: 2018-07-16
+title: SwiftUI_Calc
+date: 2025-16-12
 categories: sample
 ---
+# Calculator App (SwiftUI)
 
-# Lorem Ipsum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet sem efficitur, accumsan erat at, molestie dui. Nunc id libero dolor. Duis sed enim interdum, ultrices dolor vitae, varius magna. Nullam tincidunt sit amet velit vitae gravida. Duis porttitor dignissim nulla, eget blandit purus semper vel. Maecenas vehicula nisl ut turpis aliquam tempor. Sed sollicitudin volutpat massa, vel volutpat dolor imperdiet sit amet. Aenean non justo a ex auctor viverra.
+A beautifully designed calculator application built with SwiftUI that supports both light and dark modes. The app features a clean interface with intuitive calculation capabilities and a smooth user experience.
 
-Sed egestas diam ut bibendum pellentesque. Phasellus porta suscipit ex eget consectetur. Duis felis justo, lacinia ut urna sit amet, maximus pellentesque diam. Curabitur vestibulum vehicula diam, nec lacinia tortor dictum id. Curabitur blandit leo vel mollis vestibulum. Integer finibus eleifend sodales. Proin pretium id quam at vehicula. Phasellus rhoncus elit et interdum mollis. Quisque mollis, justo ultrices scelerisque elementum, erat felis rhoncus erat, eu fringilla neque sapien sed ante. Mauris consequat lorem id felis consectetur finibus. Curabitur scelerisque interdum pretium. Donec viverra tincidunt tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc aliquam vitae sapien sed aliquam. Mauris feugiat odio eu ligula consectetur, vel condimentum felis commodo.
+## Features
 
-Mauris vitae volutpat tellus. Nunc nec dolor eget lorem venenatis dapibus lobortis sit amet diam. In id orci nulla. Donec rhoncus erat eu vestibulum suscipit. Fusce eu urna vel magna eleifend varius ut et nisi. Phasellus in est lectus. Nam ullamcorper tortor nec sem cursus, sit amet convallis sapien elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla luctus felis in mauris tincidunt, varius ullamcorper ante tempus. In sit amet ex et libero convallis gravida sit amet eget mauris. Proin urna lacus, vulputate maximus libero non, tincidunt tempus urna.
+- **Light/Dark Mode Toggle**: Switch between light and dark themes with a simple tap
+- **Responsive Design**: Adapts seamlessly to iPhone and iPad screen sizes
+- **Real-time Calculations**: Perform mathematical operations instantly
+- **Clean UI/UX**: Intuitive interface with clear visual hierarchy
+- **Modern SwiftUI**: Built entirely with SwiftUI framework
 
-Duis ante eros, volutpat luctus nibh non, dictum vehicula justo. Nulla vehicula tempor sem sed vestibulum. Vestibulum fringilla efficitur felis eu luctus. Curabitur ac urna lobortis, feugiat erat eget, commodo risus. Praesent in erat commodo, tristique urna at, iaculis purus. Cras tortor mauris, luctus in fermentum sit amet, tempus vel diam. Ut egestas venenatis justo at condimentum. Quisque vestibulum eget neque quis facilisis. Ut iaculis at nunc non volutpat. Praesent sed maximus ipsum. Etiam finibus nunc nunc, sit amet venenatis nisi accumsan eget. Fusce sed mattis mi, ut pellentesque justo.
+## Screenshots
 
-Aenean pharetra tellus non velit egestas, ac consectetur dolor dapibus. Cras gravida, leo id porta efficitur, lorem lorem condimentum nunc, vitae scelerisque ante erat quis urna. Suspendisse mattis laoreet quam quis interdum. In a mi est. Aenean suscipit viverra enim vel viverra. Quisque eu ligula ac ipsum tristique volutpat ac et sem. Nullam tristique est blandit, iaculis metus ut, fermentum mi. Ut ac tristique orci. Cras ac dapibus enim. Pellentesque eu dictum lacus, eget tincidunt nisi.
+*Note: Add screenshots of your app here showing both light and dark modes*
+
+## Requirements
+
+- iOS 14.0+
+- Xcode 12.0+
+- Swift 5.3+
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/Calc_swiftUI.git
+```
+
+2. Open the project in Xcode:
+```bash
+cd Calc_swiftUI
+open Calc_swiftUI.xcodeproj
+```
+
+3. Build and run the project in the simulator or on a physical device
+
+## Usage
+
+- Tap the sun/moon icon at the top to toggle between light and dark modes
+- Use the numeric buttons (0-9) to enter numbers
+- Press operation buttons (+, -, ×, ÷) to perform calculations
+- Use the decimal point button for floating-point numbers
+- Press equals (=) to evaluate expressions
+- Clear (C) button resets the current calculation
+
+## Project Structure
+
+- **App Entry Point**: `Calc_swiftUIApp.swift`
+- **Main Views**: Located in `/Views` directory
+  - `MainCalculatorView.swift` - Main layout and theme handling
+  - `CalcButtonsView.swift` - Numeric and operation buttons
+  - `ComputationView.swift` - Shows current computation and result
+  - `SunMoonView.swift` - Theme toggle UI element
+- **Constants**: `/Constants` - Application constants
+- **Extensions**: `/Extensions` - SwiftUI extensions
+- **Helper**: `/Helper` - Utility functions
+
+## Technologies Used
+
+- **SwiftUI**: Modern declarative UI framework
+- **Xcode**: Development environment
+- **Swift**: Programming language
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Karthik Solleti
+
+## Support
+
+If you find this project helpful, please give it a ⭐!
+
+For issues, suggestions, or improvements, feel free to open an issue in the repository.
+
