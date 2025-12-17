@@ -1,8 +1,10 @@
 ---
 title: SwiftUI_Calc
 date: 2025-12-16
-categories: sample
+tags: SwiftUI_Calc
+use_math: true
 ---
+
 # Calculator App (SwiftUI)
 
 A beautifully designed calculator application built with SwiftUI that supports both light and dark modes. The app features a clean interface with intuitive calculation capabilities and a smooth user experience.
